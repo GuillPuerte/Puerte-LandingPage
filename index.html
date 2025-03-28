@@ -3,9 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <p> This is try</p>
+    <header>
+        <div class="logo">NAILS</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to </h2>
+            <h1> Nails Saloon !!</h1>
+            <p>"Turn insecurities in to beauty!!</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-behance"></i></a>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="about">
+        <h1>ABOUT</h1>
+        <div class="about-container">
+            <p>  We specialize in providing top-quality nail care and beauty services in a relaxing and luxurious environment. Our experienced nail technicians are dedicated to giving you the perfect manicure, pedicure, and nail art to enhance your beauty and confidence.</p>
+        </div>
+    </section>
+
+    <section class="services">
+        <h2>Our Offered Services</h2>
+        <p>We've A Lot Of Services For You</p>
+        <div class="service-cards">
+            <div class="card">
+                <img src="s1.jpg" alt="Highly Effective">
+                <h3>Highly Effective</h3>
+                <p>Delivering high-quality nail care that goes beyond beauty. </p>
+            </div>
+            <div class="card">
+                <img src="s2.jpg" alt="Convenient">
+                <h3>Convenient</h3>
+                <p>We give you the ability to access to book at your preferred time, whether it’s during lunch breaks, weekends, or evenings. </p>
+            </div>
+            <div class="card">
+                <img src="s3.jpg" alt="Professional Work">
+                <h3>Professional Work</h3>
+                <p>Our professionals are trained in the latest techniques to ensure perfect results every time. </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>SKILLS</h2>
+        <div class="skills-container">
+            <ul>
+                <li><strong> Nail Care & Technical Skills:  </strong> Precision in achieving clean and stylish looks.</li>
+                <li><strong>Customer Service & Communication Skills: </strong>  Paying attention to client needs and preferences. </li>
+                <li><strong> Business & Management Skills: </strong> Managing appointments efficiently.</li>
+                <li><strong>Creativity & Trend Awareness:</strong>  Following new styles, colors, and techniques.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>BLOG</h2>
+        <div class="blog-container">
+            <p> A simple yet essential treatment that includes nail trimming, shaping, cuticle care, and polish. Perfect for keeping your hands and feet looking neat and clean!</p>
+            <p> A fresh manicure or pedicure can make you feel confident and stylish. Whether you're looking for classic nail care, trendy designs, or luxurious treatments, your local nail salon offers plenty of options. Let’s explore the best services to treat yourself to!</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>CONTACT </h2>
+        <div class="contact-container">
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+   
+        </div>
+    </section>
 </body>
 </html>
